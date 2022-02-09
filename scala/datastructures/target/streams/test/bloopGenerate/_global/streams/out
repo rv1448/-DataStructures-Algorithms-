@@ -1,0 +1,4 @@
+[debug] [datastructures-test] Classpath dependencies List()
+[debug] [datastructures-test] Dependencies from configurations List(datastructures)
+[debug] Bloop wrote the configuration of project 'datastructures-test' to '/Users/rahulvangala/DataStructures-Algorithms/scala/.bloop/datastructures-test.json'
+[success] Generated .bloop/datastructures-test.json

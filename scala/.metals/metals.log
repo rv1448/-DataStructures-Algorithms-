@@ -1,0 +1,366 @@
+[0m2022.02.09 14:22:12 INFO  Started: Metals version 0.10.9 in workspace '/Users/rahulvangala/DataStructures-Algorithms/scala' for client Visual Studio Code 1.58.2.[0m
+[0m2022.02.09 14:22:14 INFO  time: initialize in 1.9s[0m
+[0m2022.02.09 14:22:14 WARN  Build server is not auto-connectable.[0m
+[0m2022.02.09 14:22:24 INFO  skipping build import with status 'Requested'[0m
+[0m2022.02.09 14:22:30 INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.5.4 -jar /var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/metals10525343826594764330/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2022.02.09 14:22:31 WARN  no build target for: /Users/rahulvangala/DataStructures-Algorithms/scala/project/metals.sbt[0m
+[0m2022.02.09 14:22:31 WARN  no build target for: /Users/rahulvangala/DataStructures-Algorithms/scala/project/project/metals.sbt[0m
+[0m2022.02.09 14:22:31 INFO  skipping build import with status 'Started'[0m
+[0m2022.02.09 14:22:32 INFO  [info] Updated file /Users/rahulvangala/DataStructures-Algorithms/scala/project/build.properties: set sbt.version to 1.5.4[0m
+[0m2022.02.09 14:22:32 INFO  [info] welcome to sbt 1.5.4 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2022.02.09 14:22:35 INFO  [info] loading settings for project scala-build-build from metals.sbt ...[0m
+[0m2022.02.09 14:22:36 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.02.09 14:22:36 INFO  [info] loading project definition from /Users/rahulvangala/DataStructures-Algorithms/scala/project/project[0m
+[0m2022.02.09 14:22:40 INFO  [info] loading settings for project scala-build from metals.sbt ...[0m
+[0m2022.02.09 14:22:40 INFO  [info] loading project definition from /Users/rahulvangala/DataStructures-Algorithms/scala/project[0m
+[0m2022.02.09 14:22:42 INFO  [success] Generated .bloop/scala-build.json[0m
+[0m2022.02.09 14:22:42 INFO  [success] Total time: 2 s, completed Feb 9, 2022, 2:22:42 PM[0m
+[0m2022.02.09 14:22:42 INFO  [info] loading settings for project scala from build.sbt ...[0m
+[0m2022.02.09 14:22:42 INFO  [info] set current project to scala (in build file:/Users/rahulvangala/DataStructures-Algorithms/scala/)[0m
+[0m2022.02.09 14:22:43 INFO  [success] Generated .bloop/scala-test.json[0m
+[0m2022.02.09 14:22:43 INFO  [success] Generated .bloop/scala.json[0m
+[0m2022.02.09 14:22:43 INFO  [success] Total time: 0 s, completed Feb 9, 2022, 2:22:43 PM[0m
+[0m2022.02.09 14:22:43 INFO  time: ran 'sbt bloopInstall' in 13s[0m
+[0m2022.02.09 14:22:43 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher14752278181482833720/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/Users/rahulvangala/DataStructures-Algorithms/scala/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/rahulvangala/DataStructures-Algorithms/scala/.bloop/scala-test.json'
+[0m[32m[D][0m Loading project from '/Users/rahulvangala/DataStructures-Algorithms/scala/.bloop/scala.json'
+[0m[32m[D][0m Missing analysis file for project 'scala'
+[0m[32m[D][0m Missing analysis file for project 'scala-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher14752278181482833720/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher14752278181482833720/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.02.09 14:22:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rahulvangala/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2022.02.09 14:22:44 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher12090080659128573040/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher12090080659128573040/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher12090080659128573040/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.02.09 14:22:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rahulvangala/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2022.02.09 14:22:44 INFO  time: Connected to build server in 0.41s[0m
+[0m2022.02.09 14:22:44 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.02.09 14:22:49 INFO  time: indexed workspace in 4.95s[0m
+[0m2022.02.09 14:22:50 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Feb 09, 2022 2:23:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Frahulvangala%2FDataStructures-Algorithms%2Fscala%2Fbuild.sbt:7: error: illegal start of simple pattern
+lazy val 
+         ^
+file%3A%2F%2F%2FUsers%2Frahulvangala%2FDataStructures-Algorithms%2Fscala%2Fbuild.sbt:7: error: illegal start of simple pattern
+lazy val 
+         ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser$SeqContextSensitive.badPattern3(ScalametaParser.scala:3524)
+	at scala.meta.internal.parsers.ScalametaParser$SeqContextSensitive.badPattern3$(ScalametaParser.scala:3500)
+	at scala.meta.internal.parsers.ScalametaParser$noSeq$.badPattern3(ScalametaParser.scala:3612)
+	at scala.meta.internal.parsers.ScalametaParser$SeqContextSensitive.$anonfun$pattern3$1(ScalametaParser.scala:3479)
+	at scala.meta.internal.parsers.ScalametaParser$SeqContextSensitive.$anonfun$simplePattern$2(ScalametaParser.scala:3599)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser$SeqContextSensitive.simplePattern(ScalametaParser.scala:3531)
+	at scala.meta.internal.parsers.ScalametaParser$SeqContextSensitive.simplePattern$(ScalametaParser.scala:3530)
+	at scala.meta.internal.parsers.ScalametaParser$noSeq$.simplePattern(ScalametaParser.scala:3612)
+	at scala.meta.internal.parsers.ScalametaParser$SeqContextSensitive.pattern3(ScalametaParser.scala:3479)
+	at scala.meta.internal.parsers.ScalametaParser$SeqContextSensitive.pattern3$(ScalametaParser.scala:3477)
+	at scala.meta.internal.parsers.ScalametaParser$noSeq$.pattern3(ScalametaParser.scala:3612)
+	at scala.meta.internal.parsers.ScalametaParser$SeqContextSensitive.$anonfun$pattern2$1(ScalametaParser.scala:3445)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser$SeqContextSensitive.pattern2(ScalametaParser.scala:3444)
+	at scala.meta.internal.parsers.ScalametaParser$SeqContextSensitive.pattern2$(ScalametaParser.scala:3444)
+	at scala.meta.internal.parsers.ScalametaParser$noSeq$.pattern2(ScalametaParser.scala:3612)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$2(ScalametaParser.scala:4227)
+	at scala.meta.internal.parsers.ScalametaParser.partOrEllipsis$1(ScalametaParser.scala:1499)
+	at scala.meta.internal.parsers.ScalametaParser.tokenSeparated(ScalametaParser.scala:1502)
+	at scala.meta.internal.parsers.ScalametaParser.commaSeparated(ScalametaParser.scala:1511)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:4227)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:4221)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:4187)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:4176)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:5012)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:5008)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5070)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scriptSource$1(ScalametaParser.scala:5262)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.scriptSource(ScalametaParser.scala:5261)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5251)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5251)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5257)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5321)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Feb 09, 2022 2:23:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 87
+Feb 09, 2022 2:23:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 88
+Feb 09, 2022 2:23:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 90
+Feb 09, 2022 2:23:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 92
+Feb 09, 2022 2:23:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 89
+Feb 09, 2022 2:23:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 91
+Feb 09, 2022 2:23:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 94
+Feb 09, 2022 2:23:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 96
+Feb 09, 2022 2:23:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 93
+Feb 09, 2022 2:23:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Frahulvangala%2FDataStructures-Algorithms%2Fscala%2Fbuild.sbt:9: error: identifier expected but end of file found
+
+^
+file%3A%2F%2F%2FUsers%2Frahulvangala%2FDataStructures-Algorithms%2Fscala%2Fbuild.sbt:9: error: identifier expected but end of file found
+
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.name(ScalametaParser.scala:2006)
+	at scala.meta.internal.parsers.ScalametaParser.termName(ScalametaParser.scala:2009)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$selector$1(ScalametaParser.scala:2081)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.selector(ScalametaParser.scala:2081)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExprRest$1(ScalametaParser.scala:3113)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:3094)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$5(ScalametaParser.scala:3040)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:3040)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:915)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:925)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2989)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2987)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2971)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2951)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$12(ScalametaParser.scala:2518)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:2518)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2401)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2278)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2306)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:4235)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:4221)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:4187)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:4176)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:5012)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:5008)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5070)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scriptSource$1(ScalametaParser.scala:5262)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.scriptSource(ScalametaParser.scala:5261)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5251)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5251)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5257)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5321)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2022.02.09 14:24:17 INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/metals5537764205820627558/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2022.02.09 14:24:19 INFO  [info] welcome to sbt 1.5.4 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2022.02.09 14:24:20 INFO  [info] loading settings for project scala-build-build from metals.sbt ...[0m
+[0m2022.02.09 14:24:20 INFO  [info] loading project definition from /Users/rahulvangala/DataStructures-Algorithms/scala/project/project[0m
+[0m2022.02.09 14:24:22 INFO  [info] loading settings for project scala-build from metals.sbt ...[0m
+[0m2022.02.09 14:24:22 INFO  [info] loading project definition from /Users/rahulvangala/DataStructures-Algorithms/scala/project[0m
+[0m2022.02.09 14:24:24 INFO  [success] Generated .bloop/scala-build.json[0m
+[0m2022.02.09 14:24:24 INFO  [success] Total time: 2 s, completed Feb 9, 2022, 2:24:25 PM[0m
+[0m2022.02.09 14:24:27 INFO  [info] loading settings for project datastructures from build.sbt ...[0m
+[0m2022.02.09 14:24:27 INFO  [info] set current project to datastructures (in build file:/Users/rahulvangala/DataStructures-Algorithms/scala/)[0m
+[0m2022.02.09 14:24:27 INFO  [success] Generated .bloop/datastructures-test.json[0m
+[0m2022.02.09 14:24:27 INFO  [success] Generated .bloop/datastructures.json[0m
+[0m2022.02.09 14:24:27 INFO  [warn] Removed stale /Users/rahulvangala/DataStructures-Algorithms/scala/.bloop/scala-test.json[0m
+[0m2022.02.09 14:24:27 INFO  [warn] Removed stale /Users/rahulvangala/DataStructures-Algorithms/scala/.bloop/scala.json[0m
+[0m2022.02.09 14:24:27 INFO  [success] Total time: 0 s, completed Feb 9, 2022, 2:24:27 PM[0m
+[0m2022.02.09 14:24:27 INFO  time: ran 'sbt bloopInstall' in 10s[0m
+[0m2022.02.09 14:24:27 INFO  Disconnecting from Bloop session...[0m
+[0m2022.02.09 14:24:27 INFO  Shut down connection with build server.[0m
+[0mNo more data in the server stdin, exiting...2022.02.09 14:24:27
+ INFO  Shut down connection with build server.[0mNo more data in the server stdin, exiting...
+
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2022.02.09 14:24:27 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher11579049793326987287/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/rahulvangala/DataStructures-Algorithms/scala/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/rahulvangala/DataStructures-Algorithms/scala/.bloop/datastructures.json'
+[0m[32m[D][0m Loading project from '/Users/rahulvangala/DataStructures-Algorithms/scala/.bloop/datastructures-test.json'
+[0m[32m[D][0m Configured Scala SemanticDB in projects 'datastructures', 'datastructures-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher11579049793326987287/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher11579049793326987287/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.02.09 14:24:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rahulvangala/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2022.02.09 14:24:27 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher13157777879596260026/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher13157777879596260026/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher13157777879596260026/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.02.09 14:24:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rahulvangala/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2022.02.09 14:24:27 INFO  time: Connected to build server in 52ms[0m
+[0m2022.02.09 14:24:27 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.02.09 14:24:29 INFO  time: indexed workspace in 1.55s[0m
+[0m2022.02.09 14:24:31 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2022.02.09 14:24:32 INFO  time: code lens generation in 2.97s[0m
+[0m2022.02.09 14:25:00 INFO  skipping build import with status 'Installed'[0m
+[0m2022.02.09 14:25:21 INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/metals16654105129336499062/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2022.02.09 14:25:23 INFO  [info] welcome to sbt 1.5.4 (AdoptOpenJDK Java 11.0.11)[0m
+[0m2022.02.09 14:25:23 INFO  [info] loading settings for project scala-build-build from metals.sbt ...[0m
+[0m2022.02.09 14:25:25 INFO  [info] loading project definition from /Users/rahulvangala/DataStructures-Algorithms/scala/project/project[0m
+[0m2022.02.09 14:25:26 INFO  [info] loading settings for project scala-build from metals.sbt ...[0m
+[0m2022.02.09 14:25:26 INFO  [info] loading project definition from /Users/rahulvangala/DataStructures-Algorithms/scala/project[0m
+[0m2022.02.09 14:25:28 INFO  [success] Generated .bloop/scala-build.json[0m
+[0m2022.02.09 14:25:28 INFO  [success] Total time: 2 s, completed Feb 9, 2022, 2:25:28 PM[0m
+[0m2022.02.09 14:25:30 INFO  [info] loading settings for project scala from build.sbt ...[0m
+[0m2022.02.09 14:25:30 INFO  [info] set current project to scala (in build file:/Users/rahulvangala/DataStructures-Algorithms/scala/)[0m
+[0m2022.02.09 14:25:30 INFO  [success] Generated .bloop/scala.json[0m
+[0m2022.02.09 14:25:30 INFO  [success] Generated .bloop/scala-test.json[0m
+[0m2022.02.09 14:25:30 INFO  [success] Generated .bloop/datastructures-test.json[0m
+[0m2022.02.09 14:25:30 INFO  [success] Generated .bloop/datastructures.json[0m
+[0m2022.02.09 14:25:30 INFO  [success] Total time: 0 s, completed Feb 9, 2022, 2:25:31 PM[0m
+[0m2022.02.09 14:25:31 INFO  time: ran 'sbt bloopInstall' in 9.45s[0m
+[0m2022.02.09 14:25:31 INFO  Disconnecting from Bloop session...[0m
+[0m2022.02.09 14:25:31 INFO  Shut down connection with build server.[0m
+[0m2022.02.09 14:25:31 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.02.09 14:25:31 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher3977158301113027180/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 4 projects from '/Users/rahulvangala/DataStructures-Algorithms/scala/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/rahulvangala/DataStructures-Algorithms/scala/.bloop/datastructures.json'
+[0m[32m[D][0m Loading project from '/Users/rahulvangala/DataStructures-Algorithms/scala/.bloop/scala-test.json'
+[0m[32m[D][0m Loading project from '/Users/rahulvangala/DataStructures-Algorithms/scala/.bloop/datastructures-test.json'
+[0m[32m[D][0m Loading project from '/Users/rahulvangala/DataStructures-Algorithms/scala/.bloop/scala.json'
+[0m[32m[D][0m Configured Scala SemanticDB in projects 'scala', 'scala-test'
+[0m[32m[D][0m Configured Scala SemanticDB in projects 'datastructures-test', 'datastructures'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher3977158301113027180/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher3977158301113027180/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.02.09 14:25:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rahulvangala/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2022.02.09 14:25:31 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher2329768610159474863/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher2329768610159474863/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/2x/nj352j3560l2zxxdt5xtych40000gn/T/bsp-launcher2329768610159474863/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.02.09 14:25:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rahulvangala/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2022.02.09 14:25:31 INFO  time: Connected to build server in 69ms[0m
+[0m2022.02.09 14:25:31 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.02.09 14:25:32 INFO  time: indexed workspace in 1.33s[0m
+[0m2022.02.09 14:25:34 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2022.02.09 14:25:35 INFO  time: code lens generation in 2.01s[0m
+[0m2022.02.09 14:25:48 INFO  compiling datastructures (1 scala source)[0m
+[0m2022.02.09 14:25:48 INFO  time: compiled datastructures in 0.75s[0m
+[0m2022.02.09 14:25:58 INFO  compiling datastructures (1 scala source)[0m
+[0m2022.02.09 14:25:58 INFO  time: compiled datastructures in 0.63s[0m
+[0m2022.02.09 14:26:03 INFO  compiling datastructures (1 scala source)[0m
+[0m2022.02.09 14:26:03 INFO  time: compiled datastructures in 0.59s[0m
+[0m2022.02.09 14:26:04 INFO  compiling datastructures (1 scala source)[0m
+[0m2022.02.09 14:26:04 INFO  time: compiled datastructures in 0.59s[0m
+Feb 09, 2022 2:26:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 493
+[0m2022.02.09 14:26:09 INFO  compiling datastructures (1 scala source)[0m
+[0m2022.02.09 14:26:09 INFO  time: compiled datastructures in 0.63s[0m
+[0m2022.02.09 14:26:13 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rahulvangala/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2022.02.09 14:26:13 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rahulvangala/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2022.02.09 14:26:13 INFO  Starting debug proxy for [main][0m
+[0m2022.02.09 14:26:15 INFO  Trying to attach to remote debuggee VM localhost:60680 .[0m
+[0m2022.02.09 14:26:15 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2022.02.09 14:26:15 INFO  Closing debug server tcp://0.0.0.0:60676[0m
+[0m2022.02.09 14:26:16 INFO  Canceling debug proxy for [main][0m
+Feb 09, 2022 2:26:16 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:137)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:62)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 21 more
+
